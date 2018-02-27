@@ -57,7 +57,10 @@
 	}
 
 /* Grid */
-
+table#t01 th {
+    color: white;
+    background-color: black;
+}
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
