@@ -134,20 +134,58 @@ sitemap:
 								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>-->
 				
 				
-<p><center><font size="6"><b>Mentor and Project Proposal</b></font></center></p>
+<p><center><a href="#"><font size="6"><b>Mentor and Project Proposal</b></font></a></center></p>
 
-<p>This project will be under the mentorship of <b>Dr. Bradly Alicia</b> from Devoworm group. Devoworm is a sub-project of Openworm working on 3 things :-<br />1. Developmental Dynamics<br />2. Reproduction and Developmental Plasticity<br />3. Cybernetics and Digital Morphogenesis<br /></p><a href="" class="image fit"><img src="/images/flowchart.png" alt="" /></a><br /><ul class="actions">
-  										<li><a href="https://docs.google.com/document/d/14F3-iowk0bRZdtklzBkzfgvqu1s4Lgg9VhMLwroTe6A/edit?usp=sharing" class="button">Click here to view Project Proposal in brief</a></li></ul>
+<p>The project is being developed under the <b>Openworm Foundation.</b> In google summer of code, Openworm participates under the umbrella of <b>INCF</b>(International Neuroinformatics Coordinating Facility).</p>
 							</article>
 
 						<!-- Posts -->
 							<section class="posts">
                 {% for post in site.posts limit:3 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
-  								
+  								<article>
+  									<header>
+  										<!--<h2><a href="{{ "/cgs/" | absolute_url }}">1. International Neuroinformatics Coordinating Facility</a></h2>-->
+										<h2>1. International Neuroinformatics Coordinating Facility</h2>
+  									</header>
+  									<a href="" class="image fit"><img src="/images/incf.png" alt="" /></a>
+									<p>INCF promotes <b>implementation of neuroinformatics</b> and advances data reuse & reproducibility in brain research by organizing activities and providing tools & resources to organizations and individual neuroscience researchers in the field of global brain research.</p>
+  									<ul class="actions">
+  										<li><a href="https://www.incf.org/" class="button">Home website</a></li>
+										<li><a href="https://en.wikipedia.org/wiki/International_Neuroinformatics_Coordinating_Facility" class="button">wikipage</a></li>
+  									</ul>
+  								</article>
+
+								<article>
+  									<header>
+  										<!--<h2><a href="{{ "/cgs/" | absolute_url }}">1. International Neuroinformatics Coordinating Facility</a></h2>-->
+										<h2>2. Openworm Foundation</h2>
+  									</header><br />
+  									<a href="" class="image fit"><img src="/images/openworm.png" alt="" /></a>
+									<p>OpenWorm is an international open science project to simulate the roundworm Caenorhabditis elegans at the cellular level as a simulation. Although the long-term goal is to model all 959 cells of the C. elegans, the first stage is to model the worm's locomotion by simulating the 302 neurons and 95 muscle cells.</p>
+  									<ul class="actions">
+  										<li><a href="http://www.openworm.org/" class="button">Home website</a></li>
+										<li><a href="https://en.wikipedia.org/wiki/OpenWorm" class="button">wikipage</a></li>
+  									</ul>
+  								</article>
+
+								<!--<article>
+  									<header>
+  										<h2><a href="{{ "/xml/" | absolute_url }}">3. XML Model-building for Mosaic Embryo</a></h2>
+  									</header>
+  									<a href="{{ "/xml/" | absolute_url }}" class="image fit"><img src="/images/devo.png" alt="" /></a>
+  									<p><b>Mentor:</b> <a href="https://scholar.google.com/citations?user=UaAdJi0AAAAJ&hl=en">Dr. Bradly Alicia</a><br /><b>Org: </b><a href="https://devoworm.weebly.com/">Devoworm</a></p>
+  									<ul class="actions">
+  										<li><a href="{{ "/xml/" | absolute_url }}" class="button">ROADMAP</a></li>
   									</ul>
   								</article>-->
                   {% if mod3 == 0 %}
+                  <!--<article>
+  									<header>
+  										<h2><a href="#">Sponsored</h2>
+  									</header>
+
+  								</article>-->
                   {% endif %}
                 {% endfor %}
 
