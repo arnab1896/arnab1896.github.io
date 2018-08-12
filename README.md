@@ -3,6 +3,8 @@ Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It'
 
 Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip) and save it to any folder you want.
 
+![Tutorial](1.mp4)
+
 Open a terminal window or a command line and ```cd``` to that location.
 
 Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
